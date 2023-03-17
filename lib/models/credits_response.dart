@@ -66,7 +66,7 @@ class Cast {
     if(profilePath != null) {
       return 'https://image.tmdb.org/t/p/w500$profilePath';
     }
-    return AssetImage('asset/gif12.gif');
+    return AssetImage('asset/gif1.gif');
   }
 
 

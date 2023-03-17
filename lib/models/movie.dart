@@ -40,12 +40,12 @@ class Movie {
   get fullPosterImg{
     if(this.posterPath!=null)
     return 'https://image.tmdb.org/t/p/w500${this.posterPath}';
-    return AssetImage('asset/gif00.gif');
+    return AssetImage('asset/gif1.gif');
   }
   get fullBackdropPath{
     if(this.backdropPath!=null)
       return 'https://image.tmdb.org/t/p/w500${this.backdropPath}';
-    return AssetImage('asset/gif12.gif');
+    return AssetImage('asset/gif1.gif');
   }
 
 
